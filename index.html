@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Things you must do</title>
+</head>
+
+<body>
+    <header>
+        <h1>Task List</h1>
+    </header>
+    <div class="container">
+        <div id="items"></div>
+        <template id="itemTemplate">
+            <div class="item">
+                <input type="checkbox" class="item-completed">
+                <input type="text" class="item-description" placeholder="To-do item..."><button class="delete-button"
+                    id="delete">X</button>
+            </div>
+        </template>
+        <button id="add">Add Item</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
